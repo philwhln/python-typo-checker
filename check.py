@@ -39,7 +39,7 @@ if __name__ == '__main__':
     try:
         filename = sys.argv[1]
     except:
-        print "Usage: python corrector.py [file]"
+        print "Usage: python check.py [file]"
         sys.exit(0)
 
     corrected = open(filename).read()
